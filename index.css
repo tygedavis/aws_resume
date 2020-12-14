@@ -1,0 +1,99 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 100%;
+    background-color: rgb(252, 252, 252);
+}
+
+.section-container {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-title {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.section-content {
+    width: 180%;
+    margin: 0;
+}
+.section-content p {
+    line-height: 1.65rem;
+    font-size: 1.1rem;
+}
+
+/*--- Header ---*/
+.header-container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.name-and-title {
+    font-family: 'Libre Baskerville', serif;
+    margin: auto 0;
+}
+.name-and-title h1 {
+    margin: 0;
+    font-size: 5rem;
+}
+.name-and-title h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.header-info {
+    margin: auto 0;
+}
+.header-info p {
+    margin: 10px 0 0 0;
+}
+
+/*--- Skills ---*/
+.section-content table tr td{
+    width: 360px;
+    height: 25px;
+}
+
+/*--- Experience ---*/
+.experience-container h3 {
+    margin: 20px auto 5px auto;
+}
+.experience-container h4 {
+    font-weight: initial;
+    margin: 0;
+}
+.experience-container h4 span {
+    font-style: italic;
+}
+
+/*--- Education ---*/
+.experience-container h3 a {
+    color: black;
+    text-decoration-style: dotted;
+}
+.experience-container h3 a:hover {
+    text-decoration-style: solid;
+}
+
+/*--- Counter ---*/
+#counter-container {
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    width: 10rem;
+    border: 3px solid black;
+}
+#counter-container p{
+    width: 100%;
+    margin: 10px 10px;
+}
