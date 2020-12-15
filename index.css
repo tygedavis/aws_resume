@@ -75,6 +75,10 @@ body {
 .experience-container h4 span {
     font-style: italic;
 }
+.experience-container ul li {
+    line-height: 1.65rem;
+    font-size: 1.1rem;
+}
 
 /*--- Education ---*/
 .experience-container h3 a {
